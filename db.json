@@ -12,11 +12,11 @@
       "id": 1
     },
     {
-      "name": "gato",
-      "budget": "12348",
+      "name": "gato atualizado",
+      "budget": "1198",
       "category": {
-        "id": "2",
-        "name": "Desenvolvimento"
+        "id": "1",
+        "name": "Infra"
       },
       "cost": 0,
       "services": [],
