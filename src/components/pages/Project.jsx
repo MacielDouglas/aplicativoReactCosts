@@ -28,7 +28,7 @@ function Project() {
           setProject(data);
         })
         .catch((err) => console.log(err));
-    }, 2000);
+    }, 300);
   }, [id]);
 
   function editPost(project) {

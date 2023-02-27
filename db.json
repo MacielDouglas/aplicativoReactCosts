@@ -1,19 +1,19 @@
 {
   "projects": [
     {
-      "name": "rato",
-      "budget": "1243",
+      "name": "Buraco do rato",
+      "budget": "600",
       "category": {
-        "id": "1",
-        "name": "Infra"
+        "id": "4",
+        "name": "Planejamento"
       },
       "cost": 0,
       "services": [],
       "id": 1
     },
     {
-      "name": "gato atualizado",
-      "budget": "1198",
+      "name": "Gato Atualizado",
+      "budget": "255",
       "category": {
         "id": "1",
         "name": "Infra"
@@ -23,11 +23,11 @@
       "id": 2
     },
     {
-      "name": "cao",
-      "budget": "23",
+      "name": "Cão de Guarda",
+      "budget": "45",
       "category": {
-        "id": "3",
-        "name": "Desing"
+        "id": "2",
+        "name": "Desenvolvimento"
       },
       "cost": 0,
       "services": [],
