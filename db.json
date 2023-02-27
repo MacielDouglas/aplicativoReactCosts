@@ -18,8 +18,21 @@
         "id": "1",
         "name": "Infra"
       },
-      "cost": 0,
-      "services": [],
+      "cost": 191,
+      "services": [
+        {
+          "name": "cada",
+          "cost": "178",
+          "description": "dlakd~laskf ",
+          "id": "38e79c45-7258-43fe-b50c-08f8f283a131"
+        },
+        {
+          "name": "mmma",
+          "cost": "13",
+          "description": "qok  kokok  qel v qf qdw",
+          "id": "16d13993-1095-42a3-82df-1484bcf19ade"
+        }
+      ],
       "id": 2
     },
     {
@@ -29,15 +42,8 @@
         "id": "2",
         "name": "Desenvolvimento"
       },
-      "cost": 30,
-      "services": [
-        {
-          "name": "Coleira",
-          "cost": "30",
-          "description": "Coleira para uso",
-          "id": "f18709fe-0f09-43c3-b1fb-f5ae2d3f6e94"
-        }
-      ],
+      "cost": 0,
+      "services": [],
       "id": 3
     }
   ],
