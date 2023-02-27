@@ -29,8 +29,15 @@
         "id": "2",
         "name": "Desenvolvimento"
       },
-      "cost": 0,
-      "services": [],
+      "cost": 30,
+      "services": [
+        {
+          "name": "Coleira",
+          "cost": "30",
+          "description": "Coleira para uso",
+          "id": "f18709fe-0f09-43c3-b1fb-f5ae2d3f6e94"
+        }
+      ],
       "id": 3
     }
   ],
