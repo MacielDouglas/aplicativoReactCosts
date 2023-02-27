@@ -12,6 +12,7 @@ function Project() {
 
   const [project, setProject] = useState([]);
   const [showProjectForm, setShowProjectForm] = useState(false);
+  const [showServiceForm, setShowServiceForm] = useState(false);
   const [message, setMessage] = useState();
   const [type, setType] = useState();
 
@@ -59,6 +60,9 @@ function Project() {
   function toggleProjectForm() {
     setShowProjectForm(!showProjectForm);
   }
+  function toggleServiceForm() {
+    setShowServiceForm(!showServiceForm);
+  }
 
   return (
     <>
@@ -93,6 +97,19 @@ function Project() {
                 </div>
               )}
             </div>
+            <div className={styles.service_form_container}>
+              <h2>Adicione um serviço:</h2>
+              <button className={styles.btn} onClick={toggleServiceForm}>
+                {!showServiceForm ? 'Adicionar Serviço' : 'Fechar'}
+              </button>
+              <div className={styles.project_info}>
+                {showServiceForm && <div>Formulário de Serviço</div>}
+              </div>
+            </div>
+            <h2>Serviços</h2>
+            <Container customClass="start">
+              <p>Itens de Serviço</p>
+            </Container>
           </Container>
         </div>
       ) : (
